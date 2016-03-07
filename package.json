@@ -1,0 +1,27 @@
+{
+  "name": "pixel-bg",
+  "description": "Change the pixel background color.",
+  "keywords": [
+    "pixel",
+    "bg",
+    "change",
+    "the",
+    "background",
+    "color"
+  ],
+  "license": "MIT",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/IonicaBizau/pixel-bg.git"
+  },
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/pixel-bg/issues"
+  },
+  "homepage": "https://github.com/IonicaBizau/pixel-bg#readme"
+}

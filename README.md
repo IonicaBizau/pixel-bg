@@ -15,20 +15,42 @@ $ npm i --save pixel-bg
 
 const pixelBg = require("pixel-bg");
 
-console.log(pixelBg());
+console.log(pixelBg({
+    r: 255
+  , g: 0
+  , b: 0
+  , a: 1
+}, {
+    r: 0
+  , g: 255
+  , b: 0
+}));
+// PixelClass { r: 255, g: 0, b: 0, a: 1 }
+
+console.log(pixelBg({
+    r: 255
+  , g: 0
+  , b: 0
+  , a: 0.5
+}, {
+    r: 0
+  , g: 255
+  , b: 0
+}));
+// PixelClass { r: 127.5, g: 127.5, b: 0, a: 1 }
 ```
 
 ## Documentation
 
-### `pixelBg(a, b)`
+### `pixelBg(pixel, bgColor)`
 Change the pixel background color.
 
 #### Params
-- **Number** `a`: Param descrpition.
-- **Number** `b`: Param descrpition.
+- **Pixel** `pixel`: A [`Pixel`](https://github.com/IonicaBizau/pixel-class) instance.
+- **Object** `bgColor`: An object containing the `r`, `g`, `b` values of the new background color.
 
 #### Return
-- **Number** Return description.
+- **Pixel** The `Pixel` instance.
 
 ## How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].

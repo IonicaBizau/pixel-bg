@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/IonicaBizau/pixel-bg/issues"
   },
-  "homepage": "https://github.com/IonicaBizau/pixel-bg#readme"
+  "homepage": "https://github.com/IonicaBizau/pixel-bg#readme",
+  "dependencies": {
+    "pixel-class": "^1.0.0"
+  }
 }
